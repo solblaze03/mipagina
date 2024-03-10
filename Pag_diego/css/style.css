@@ -114,6 +114,9 @@ footer{
     section img{
         width: 40%;
     }
+    h1{
+        font-size: 5em;
+    }
     
     
 }
@@ -122,8 +125,8 @@ footer{
         width: 100%;
     }
     h1{
-        font-size: 5em;
-        margin-left: 35px;
+        font-size: 4em;
+        margin-left: 15px;
     }
     h2{
         font-size: 3.5em;
@@ -138,6 +141,27 @@ footer{
         "aside aside"
         "footer footer"
         ;
+    }
+    
+}
+@media screen and (max-width: 386px){
+    .container{
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "aside aside"
+        "footer footer"
+        ;
+    }
+    header img{
+        width: 9em;
+        
+    }
+    h1{
+        font-size: 2.3em;
+    }
+    main h2{
+        font-size: 1.9em;
     }
     
 }
