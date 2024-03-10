@@ -122,7 +122,7 @@ footer{
 }
 @media screen and (max-width: 779px){
     section img{
-        width: 100%;
+        width: 90%;
     }
     h1{
         font-size: 4em;
@@ -145,14 +145,7 @@ footer{
     
 }
 @media screen and (max-width: 386px){
-    .container{
-        grid-template-areas: 
-        "header header"
-        "main main"
-        "aside aside"
-        "footer footer"
-        ;
-    }
+    
     header img{
         width: 9em;
         
