@@ -111,6 +111,10 @@ footer{
 }
 
 @media screen and (max-width: 912px){
+    body{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     section img{
         width: 40%;
     }
