@@ -71,6 +71,7 @@ aside img{
 }
 aside img:hover{
     border-color: greenyellow;
+    box-shadow: green 0 0 5px 5px;
     transition: 1s;
 }
 h2{
@@ -161,4 +162,8 @@ footer{
         font-size: 1.9em;
     }
     
+}
+footer img{
+    width: 5em;
+    align-items: center;
 }
